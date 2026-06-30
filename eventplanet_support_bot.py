@@ -145,10 +145,10 @@ async def reply_to_user(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
 # ─── MAIN ─────────────────────────────────────────────────
 
 def main() -> None:
-    if BOT_TOKEN == "8990858708:AAFIQ9GoarkK2m7tXlgU0kf9UFuIrp2nPSs":
+    if BOT_TOKEN == "ВСТАВЬТЕ_ТОКЕН_БОТА_ПОДДЕРЖКИ":
         logger.error("❌ Укажите SUPPORT_BOT_TOKEN!")
         return
-    if ADMIN_CHAT_ID == "380685081":
+    if ADMIN_CHAT_ID == "ВСТАВЬТЕ_ВАШ_TELEGRAM_ID":
         logger.error("❌ Укажите ADMIN_CHAT_ID!")
         return
 
