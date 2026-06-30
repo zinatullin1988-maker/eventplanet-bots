@@ -28,8 +28,8 @@ from telegram.ext import (
 )
 
 # ─── CONFIG ───────────────────────────────────────────────
-BOT_TOKEN     = os.getenv("SUPPORT_BOT_TOKEN", "ВСТАВЬТЕ_ТОКЕН_БОТА_ПОДДЕРЖКИ")
-ADMIN_CHAT_ID = os.getenv("ADMIN_CHAT_ID", "ВСТАВЬТЕ_ВАШ_TELEGRAM_ID")
+BOT_TOKEN     = os.getenv("SUPPORT_BOT_TOKEN", "8990858708:AAFIQ9GoarkK2m7tXlgU0kf9UFuIrp2nPSs")
+ADMIN_CHAT_ID = os.getenv("ADMIN_CHAT_ID", "380685081")
 
 logging.basicConfig(
     format="%(asctime)s | %(levelname)s | %(message)s",
